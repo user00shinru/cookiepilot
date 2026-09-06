@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import "@solana/wallet-adapter-react-ui/styles.css";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(251, 146, 60, 0.12), transparent 60%),
+    radial-gradient(900px 400px at 5% 110%, rgba(245, 158, 11, 0.08), transparent 60%),
+    #0c0a09;
+  color: #e7e5e4;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+::selection {
+  background: rgba(251, 191, 36, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* wallet-adapter modal dark restyle */
+.wallet-adapter-modal-wrapper {
+  background: #1c1917 !important;
+  border: 1px solid #44403c !important;
+  border-radius: 16px !important;
+}
+.wallet-adapter-modal-title {
+  color: #fbbf24 !important;
+}
+.wallet-adapter-modal-list-more {
+  color: #a8a29e !important;
+}
+.wallet-adapter-button {
+  font-weight: 600 !important;
+}
+
+@keyframes cookiepulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+.animate-cookiepulse {
+  animation: cookiepulse 1.6s ease-in-out infinite;
+}
