@@ -56,6 +56,8 @@ All other program/pool addresses are surfaced live per-swap in the route breakdo
 
 Bridge COOK 1:1 from Solana mainnet via the [Hyperlane bridge](https://hyperlane.cookiescan.io), then connect Nightly and go degen.
 
-## 📄 License
+## 📄 License & authorship
+
+Built and maintained by **shinru** ([@user00shinru](https://github.com/user00shinru)) for the [Superteam Earn Cookie Chain cApp bounty](https://superteam.fun/earn/listing/create-an-app-on-cookie-chain-app).
 
 MIT — see [LICENSE](LICENSE).
